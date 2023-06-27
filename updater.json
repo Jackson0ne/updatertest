@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "notes": "Updater Test",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://github.com/Jackson0ne/updatertest/releases/download/0.1.0/updatertest_0.1.0_x64-setup.nsis.zip"
+    }
+  }
+}
