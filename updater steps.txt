@@ -1,0 +1,40 @@
+1. Run the following cmd command: npm run tauri signer --generate -- -w <PATH>
+- <PATH> can be any path you want on your system.
+- Once it has completed, both the Private and Public key files will be inside the directory specified in <PATH>
+
+*** MAKE SURE TO BACK UP YOUR PRIVATE KEY SOMEWHERE REALLY SAFE, AS YOU WON'T BE ABLE TO UPDATE YOUR EXE AGAIN IF YOU LOSE IT ***
+
+2. Type "env" into the Start Menu, and open the "Edit the system environmental variables" option. Then click "Environmental variables..."
+
+3. In both the "User" and "System" sections, click "New...", then add the following:
+- Variable name: TAURI_PRIVATE_KEY
+- Variable value: <Content of the generated "<your app name>.key" file>
+- Variable name: TAURI_KEY_PASSWORD
+- Variable value: The password you set to generate the keys in step 1.
+
+*** RESTART YOUR PC TO ENABLE THE ENVIRONMENTAL VARIABLES ***
+
+4. Add the following to "tauri.conf.json":
+
+"updater": {
+    "active": true,
+    "endpoints": [ "https://raw.githubusercontent.com/<user>/<repo>/main/<updater file>.json" ],
+    "pubkey": "<Content of the generated "<your app name>.key.pub" file>"
+}
+
+*"endpoints" should be the URL of the file that you are using as your updater JSON file
+
+5. Update the "package > version" field in "tauri.conf.json", and also update the "version" field in "package.json" to reflect the updated version.
+
+6. Run: npm run tauri build
+- Once built, the "src-tauri > target > release > bundle > <Bundle type>" folder should contain 3 files:
+    - The EXE (<your app name>_<version>_<arch>.exe)
+    - The update ZIP (<your app name>_<version>_<arch>.<filetype>.zip)
+    - The update signature file (<your app name>_<version>_<arch>.<filetype>.zip.sig)
+
+7. Upload the newest update ZIP to your repo root.
+
+8. Update "<updater file>.json" with the following:
+- The new "version" number
+- The new "url", which should reflect the name of the update ZIP file (as the version string will have changed upon building)
+- The new update "signature" string (as the signature will have changed upon building)
