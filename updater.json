@@ -3,7 +3,7 @@
   "notes": "Updater Test",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSKzJNZXlDTzYvMkd2NzdVTVNKTWhwRUJ2MVh0d01WU01KZXEvamtRaFBDK2F3V0hMeHBzV0tsamtjeGxsUEdvcTJnSUhaRm1la3RjR3gwOWhOUzA5QjU4THl0M2sxa1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjg3ODczMjQ2CWZpbGU6dXBkYXRlcnRlc3RfMC4xLjFfeDY0LXNldHVwLm5zaXMuemlwCi9xZ0MrMDNWNVpjYUNlay9rNkJZOGxjSTc4ckpoUlNxM21wQlBKRVl1cFdKUU1BUkIvUU91eTVyQ25XUG5mcm4vU3BYUGRQanEyL2ZvQXZwbmg0SkRRPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSKzJNZXlDTzYvMkpuWmxWR01wUDNFREM1TEQ4YUZEajl1N0dNSzk4bkcrTUIyVUU3TWNRMGhWczFEbGhPU2F6ZUZ0bWFBOGlTelB4ZnVSUzRNaExvbzFqQnlmTmlWa2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjg3ODc0MjUzCWZpbGU6dXBkYXRlcnRlc3RfMC4xLjBfeDY0LXNldHVwLm5zaXMuemlwCitmSVhIaFdOSzlCMlhjc2M2TXRMYktqRExVQVZEYTcreGZ2N3pVVnV0N1VqQjh5azkxZkl1V0lBNGxpVC8zZDhQdWtzZ1A5WnJOeUFtdEYzMXZEaEF3PT0K",
       "url": "https://raw.githubusercontent.com/Jackson0ne/updatertest/main/updatertest_0.1.0_x64-setup.nsis.zip"
     }
   }
