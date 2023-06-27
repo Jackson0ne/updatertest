@@ -28,7 +28,7 @@
 
 6. Run: npm run tauri build
 - Once built, the "src-tauri > target > release > bundle > <Bundle type>" folder should contain 3 files:
-    - The EXE (<your app name>_<version>_<arch>.exe)
+    - The built installer/EXE (<your app name>_<version>_<arch>.exe)
     - The update ZIP (<your app name>_<version>_<arch>.<filetype>.zip)
     - The update signature file (<your app name>_<version>_<arch>.<filetype>.zip.sig)
 
@@ -36,5 +36,5 @@
 
 8. Update "<updater file>.json" with the following:
 - The new "version" number
-- The new "url", which should reflect the name of the update ZIP file (as the version string will have changed upon building)
+- The new "url", which should reflect the name of the update ZIP file (as the version string will have changed upon building) - e.g. "https://raw.githubusercontent.com/Jackson0ne/updatertest/main/yourapp_0.1.1_x64-setup.nsis.zip"
 - The new update "signature" string (as the signature will have changed upon building)
