@@ -1,10 +1,10 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.0",
   "notes": "New Update Pushed",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSKzJNZXlDTzYvMkNqVkYrbDJhMXhKaWd6Vnc2UWFnbFBGd252Qjk1WnBxQmJiRE1nREVMZjl6U2wwRzc1cjdjYmxCb29EWnhBdWtna1hWZFNLaFVUYmp2Um1NSE1XR2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjg3ODc0NTEyCWZpbGU6dXBkYXRlcnRlc3RfMC4xLjFfeDY0LXNldHVwLm5zaXMuemlwCjVBT2N1VVFEcjUwQ2FHQlNVWkxOclVidWFpM3JVdnA3eFZhbFM3QjRYbUZhNHVOT1V5Uy9IWkYwNEthZXB5ZjdMUVlMQkYxbW1nVzNYM2lJRE5WOERBPT0K",
-      "url": "https://raw.githubusercontent.com/Jackson0ne/updatertest/main/updatertest_0.1.1_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSKzJNZXlDTzYvMk42b2JFSUtWUXVUZGxRL3VHSEhaVzdsTUlDd29MUUtWZEpXcFUrT1JubFIxeUQrL0ltNmppdm9Vd1lpYklCM3lwcGd2SXJRczQ1YlhkblFsVUJTeHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjg4NTQyOTE3CWZpbGU6dXBkYXRlcnRlc3RfMC4xLjBfeDY0LXNldHVwLm5zaXMuemlwClpURkp0anpZVTJSQ3crSU4zN0ZkK3hkVnU1R05ueitsM3RVblZIT2wyeFRHczJaSTB0aGpHUjBTWGVoblRVUkFaMU1aUzRBWHhvTmNUbENhOUpPc0FRPT0K",
+      "url": "https://raw.githubusercontent.com/Jackson0ne/updatertest/main/updatertest_0.1.0_x64-setup.nsis.zip"
     }
   }
 }
