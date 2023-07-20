@@ -1,4 +1,4 @@
-1. Run the following cmd command: npm run tauri signer --generate -- -w <PATH>
+1. Run the following cmd command: npm run tauri signer --generate -- -w <PATH>/<keyname>.key
 - <PATH> can be any path you want on your system.
 - Once it has completed, both the Private and Public key files will be inside the directory specified in <PATH>
 
